@@ -53,13 +53,16 @@ section{
     border-radius: 5px;
 }
 
+.link-button:hover::after{
+    background-color: black;
+    color: blanchedalmond;
+}
+
 .biography-area{
 
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: center;
-
-   
 }
 
 .latest-work-area{
@@ -88,7 +91,6 @@ section{
     max-width: 100%;
 }
 
-
 .center{
     text-align: center;
     margin: auto;
@@ -100,19 +102,36 @@ footer{
     height: 500px;
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
-    background-position: center;
-  
- 
+    background-position: center;  
 }
 
-.contact{
-
+.contact-client{
     text-decoration: none;
     background-image: linear-gradient(45deg,rgb(230, 47, 138),rgb(216, 79, 143));
-    padding:10px 20px;
+    padding:30px 20px;
     color: white;
     font-weight:400;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 50px 250px;
     margin-bottom: 90px;
 }
+
+footer p{
+
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.contact-form{
+    background-color: rgb(209, 0, 105);
+    color: white;
+    font-weight: 500;
+    height: 400px;
+    text-align: center;
+    padding: 50px ;
+}
+ 
+input:focus {
+    border: 1px solid rgb(16, 202, 187);
+    color:white;
+  }
